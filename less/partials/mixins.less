@@ -1,0 +1,37 @@
+// Mixins Here
+
+.myButton(@size; @backgroundColor; @color) {
+	  border: none;
+	  background-color: @backgroundColor;
+	  border: none;
+	  color: @color;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: @size;
+	&:hover
+	{
+	  border: none;
+	  background-color: darken(@backgroundColor,5%);
+	  border: none;
+	  color: lighten(@color,10%);
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: @size;
+	  cursor:pointer;
+	 }
+}
+
+.mylink(@font, @color,@hoverColor) {
+		font: @font;
+		color:@nav-font-color;
+		text-decoration:none;
+	&:hover{
+		font:@font;
+		color:@hoverColor;
+		text-decoration:underline;
+	}
+}

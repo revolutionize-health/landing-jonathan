@@ -1,0 +1,34 @@
+// Navigation code here
+.nav-wrapper
+{
+	display:flex;
+	flex-direction:column;
+	background-color:@s4;
+	border:solid thin @p1;
+	width:100%;
+	max-width:1000px;
+	margin:0 auto;
+	justify-content:center;
+	
+	nav {
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+		width:100%;
+		max-width:500px;
+		margin:0 auto;
+		a {
+		.mylink(~"1.75em '@{text-font}', @{text-font-backup}" ,@nav-font-color, lighten(@nav-font-color,10%));
+		}
+	}
+	.img-header {
+		object-fit: contain;
+		width:100%;
+	}
+	.logo {
+		.mylink(~"4em '@{header-font}' , @{header-font-backup}" ,@header-font-color, lighten(@header-font-color,10%));
+		text-align:center;
+	}
+	
+	
+}
