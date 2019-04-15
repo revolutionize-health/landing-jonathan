@@ -1,0 +1,47 @@
+// General Styles
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  background-color: @website-bg;
+  font-family: @text-font, @text-font-backup;
+  color: @main-font-color;
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+.hideOnSmall {
+		@media @phone {
+		display:none !important; // functionality issue keep !important
+		}
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: @header-font, @header-font-backup;
+  color: @header-font-color;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;   
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;  
+}
+

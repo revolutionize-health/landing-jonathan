@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  background-color: #e3e3e3;
+  font-family: 'Open Sans', sans-serif;
+  color: #020207;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width:500px) {
+  .hideOnSmall {
+    display: none !important;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #020207;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f00b8;
+  border: solid thin #c90000;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.nav-wrapper nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.nav-wrapper nav a {
+  font: 1.75em 'Open Sans', sans-serif;
+  color: #020207;
+  text-decoration: none;
+}
+.nav-wrapper nav a:hover {
+  font: 1.75em 'Open Sans', sans-serif;
+  color: #0d0d2f;
+  text-decoration: underline;
+}
+.nav-wrapper .img-header {
+  object-fit: contain;
+  width: 100%;
+}
+.nav-wrapper .logo {
+  font: 4em 'Source Sans Pro' , sans-serif;
+  color: #020207;
+  text-decoration: none;
+  text-align: center;
+}
+.nav-wrapper .logo:hover {
+  font: 4em 'Source Sans Pro' , sans-serif;
+  color: #0d0d2f;
+  text-decoration: underline;
+}
+footer {
+  color: #53616f;
+  background: #0f00b8;
+  padding: 20px 0;
+  border: 1px double #0f00b8;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .intro h2 {
+  padding: 15px;
+}
+.home .intro p {
+  padding: 0 15px;
+}
+.home .image-bar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home .image-bar img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 5px;
+  height: 100%;
+}
+@media (max-width:500px) {
+  .home .image-bar img {
+    width: 100%;
+  }
+}
+.home .home-s2 {
+  padding: 15px;
+}
+.home .home-s2 h3 {
+  margin-top: 11px;
+}
+.home .home-s2 p {
+  margin-top: 13px;
+}
+.home .home-s3 {
+  margin-top: 20px;
+  border-top: 1px solid #0f00b8;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .home .home-s3 {
+    flex-direction: column-reverse;
+  }
+}
+.home .home-s3 > div {
+  width: 100%;
+}
+.home .home-s3 > div h3 {
+  margin: 15px 0;
+}
+.home .home-s3 > div p {
+  margin-bottom: 26px;
+}
+.home .home-s3 > div .btn {
+  background-color: #020207;
+  border: none;
+  color: #b0b0b0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3em;
+  border-radius: 3px;
+}
+.home .home-s3 > div .btn:hover {
+  background-color: #000000;
+  border: none;
+  color: #cacaca;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3em;
+  cursor: pointer;
+}
+@media (max-width:500px) {
+  .home .home-s3 > div .btn {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+.home .home-s3 .img-container {
+  width: 100%;
+  margin-left: 20px;
+}
+@media (max-width:500px) {
+  .home .home-s3 .img-container {
+    width: 100%;
+    align-self: flex-start;
+    margin: 0;
+  }
+}
+.home .home-s3 .img-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
