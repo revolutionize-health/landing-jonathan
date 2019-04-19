@@ -134,9 +134,9 @@ html {
 }
 html,
 body {
-  background-color: #e3e3e3;
-  font-family: 'Open Sans', sans-serif;
-  color: #020207;
+  background-color: #F1F2EB;
+  font-family: 'Segoe UI', sans-serif;
+  color: #603140;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -151,8 +151,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #020207;
+  font-family: 'Noto Sans', sans-serif;
+  color: #603140;
 }
 h2 {
   font-size: 3.2rem;
@@ -172,8 +172,8 @@ p {
 .nav-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: #0f00b8;
-  border: solid thin #c90000;
+  background-color: #D8DAD3;
+  border: solid thin #282c34;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -188,13 +188,13 @@ p {
   margin: 0 auto;
 }
 .nav-wrapper nav a {
-  font: 1.75em 'Open Sans', sans-serif;
-  color: #020207;
+  font: 1.75em 'Segoe UI', sans-serif;
+  color: #603140;
   text-decoration: none;
 }
 .nav-wrapper nav a:hover {
-  font: 1.75em 'Open Sans', sans-serif;
-  color: #0d0d2f;
+  font: 1.75em 'Segoe UI', sans-serif;
+  color: #824257;
   text-decoration: underline;
 }
 .nav-wrapper .img-header {
@@ -202,21 +202,21 @@ p {
   width: 100%;
 }
 .nav-wrapper .logo {
-  font: 4em 'Source Sans Pro' , sans-serif;
-  color: #020207;
+  font: 4em 'Noto Sans' , sans-serif;
+  color: #603140;
   text-decoration: none;
   text-align: center;
 }
 .nav-wrapper .logo:hover {
-  font: 4em 'Source Sans Pro' , sans-serif;
-  color: #0d0d2f;
+  font: 4em 'Noto Sans' , sans-serif;
+  color: #824257;
   text-decoration: underline;
 }
 footer {
-  color: #53616f;
+  color: #8ACDEA;
   background: #0f00b8;
   padding: 20px 0;
-  border: 1px double #0f00b8;
+  border: 1px double #D8DAD3;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -255,7 +255,7 @@ footer {
 }
 .home .home-s3 {
   margin-top: 20px;
-  border-top: 1px solid #0f00b8;
+  border-top: 1px solid #D8DAD3; 
   padding: 20px 20px;
   display: flex;
   justify-content: center;
@@ -275,9 +275,9 @@ footer {
   margin-bottom: 26px;
 }
 .home .home-s3 > div .btn {
-  background-color: #020207;
+  background-color: #603140;
   border: none;
-  color: #b0b0b0;
+  color: #c6caad;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -286,9 +286,9 @@ footer {
   border-radius: 3px;
 }
 .home .home-s3 > div .btn:hover {
-  background-color: #000000;
+  background-color: #4f2835;
   border: none;
-  color: #cacaca;
+  color: #dbdecc;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
